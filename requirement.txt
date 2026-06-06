@@ -1,7 +1,8 @@
-streamlit>=1.28.0
-torch>=2.0.0
-transformers>=4.35.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.0.1+cpu
+transformers==4.35.0
 huggingface-hub>=0.19.0
 NRCLex>=4.0.0
 nltk>=3.8.0
 sentencepiece>=0.1.99
+streamlit>=1.28.0
